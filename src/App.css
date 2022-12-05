@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+.stylings {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-left: 100px;
+}
+h1 {
+  margin-bottom: 0%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nameStyle {
+  font-family: "Georgia, sans-serif";
+  font-size: 2em;
+  letter-spacing: -2px;
+  color: #008cba;
+  text-shadow: 1px 2px 4px #267e9c;
+  opacity: 85%;
+}
+.professionStyle {
+  font-family: "'Trebuchet MS', sans-serif";
+  letter-spacing: -1px;
+  color: grey;
+  text-transform: uppercase;
+  font-style: italic;
+  border-bottom: "px solid";
+  border-width: 50%;
+}
+.bioStyle {
+  font-family: " 'Trebuchet MS', sans-serif`";
+  font-size: 18px;
+  background-color: rgb(232, 233, 235);
+  color: black;
+}
+.buttonStyle {
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #008cba;
+  color: White;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Source Sans Pro, sans-serif";
+  border-radius: 5px;
+  border-color: #267e9c;
+}
+.imgStyle {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
